@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="device_detail_records_tab">
+        <item>维修记录</item>
+        <item>保养记录</item>
+        <item>附件信息</item>
+    </array>
+</resources>

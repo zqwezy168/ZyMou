@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <!-- 导航栏 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/white">
+
+        <!-- 左侧布局,一个IconFont,一个Textview -->
+        <LinearLayout
+            android:id="@+id/ll_titlebar_left_root"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:maxWidth="180dp">
+
+            <ImageView
+                android:id="@+id/iv_titlebar_left_default_arrow"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="16dp"
+                android:contentDescription="@null"
+                android:src="@mipmap/arrow_left_black"
+                android:visibility="gone"
+                tools:visibility="visible"/>
+
+            <TextView
+                android:id="@+id/tv_titlebar_left_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:maxLines="1"
+                android:maxWidth="80dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:text="返回按钮"/>
+        </LinearLayout>
+
+        <!-- 中间Title文字说明 -->
+        <TextView
+            android:id="@+id/tv_titlebar_middle_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:maxLines="1"
+            android:maxWidth="224dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            tools:text="中间标题"/>
+
+
+        <!--右侧文字-->
+        <LinearLayout
+            android:id="@+id/ll_titlebar_right_root"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:maxWidth="150dp"
+            android:paddingEnd="11dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="11dp"
+            android:paddingStart="0dp">
+
+
+            <TextView
+                android:id="@+id/tv_titlebar_right_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:maxLines="1"
+                android:maxWidth="100dp"
+                android:paddingEnd="5dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="5dp"
+                android:paddingStart="0dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                tools:text="右侧文字"/>
+
+
+            <ImageView
+                android:id="@+id/iv_titlebar_right_default_save"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="16dp"
+                android:contentDescription="@null"
+                android:scaleX="1.1"
+                android:scaleY="1.1"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

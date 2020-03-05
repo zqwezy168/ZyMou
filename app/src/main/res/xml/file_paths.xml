@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- "/" -->
+    <root-path name="test" path="test"/>
+    <!--Context.getFilesDir().-->
+    <files-path path="zy_test_img/zy" name="zy_test_img/zy"/>
+    <!-- getCacheDir().-->
+    <cache-path name="images1" path="zy_test_img/zy" />
+    <!-- Environment.getExternalStorageDirectory().-->
+    <external-path name="images2" path="zy_test_img/zy" />
+    <!--Context#getExternalFilesDir(String) Context.getExternalFilesDir(null).   -->
+    <external-files-path name="images3" path="zy_test_img/zy" />
+    <!-- Context.getExternalCacheDir().  -->
+    <external-cache-path name="images4" path="zy_test_img/zy" />
+</paths>

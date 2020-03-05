@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="y8">23.68px</dimen>
+    <dimen name="y30">88.8px</dimen>
+    <dimen name="y35">103.6px</dimen>
+    <dimen name="y40">118.4px</dimen>
+    <dimen name="y159">470.64px</dimen>
+    <dimen name="y280">828.8px</dimen>
+    <dimen name="y350">1036.0px</dimen>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/s_sheetdialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/text_color_gray_light"
+        android:minHeight="45dp"
+        android:textSize="15sp"
+        android:background="@color/white"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray1"/>
+
+    <ScrollView
+        android:id="@+id/s_sheetdialog_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none">
+        <LinearLayout
+            android:id="@+id/s_sheetdialog_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/gray1"/>
+    <TextView
+        android:id="@+id/s_sheetdialog_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="取消"
+        android:textColor="@color/text_color_black"
+        android:background="@drawable/s_sheetdialog_bottom"/>
+
+</LinearLayout>
